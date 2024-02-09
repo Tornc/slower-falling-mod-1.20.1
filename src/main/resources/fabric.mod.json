@@ -3,26 +3,16 @@
   "id": "slower-falling",
   "version": "${version}",
   "name": "Slower Falling",
-  "description": "Makes the slow falling effect higher than 0 actually do something.",
+  "description": "Makes the slow falling effect amplifier actually do something.",
   "authors": [
     "Tornc"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
   "license": "",
   "icon": "assets/slower-falling/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       "net.tornc.slowerfalling.SlowerFalling"
-    ],
-    "client": [
-      "net.tornc.slowerfalling.SlowerFallingClient"
-    ],
-    "fabric-datagen": [
-      "net.tornc.slowerfalling.SlowerFallingDataGenerator"
     ]
   },
   "mixins": [
